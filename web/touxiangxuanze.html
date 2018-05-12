@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>头像选择</title>
+		<style>
+			.main {
+				width: 340px;
+				float: left;
+				margin-left:35%;
+			}
+			
+			.section {
+				width: 110px;
+				height: 120px;
+				float: left;
+			}
+			
+			img {
+				width: 100px;
+				height: 100px;
+			}
+			
+			.sel {
+				display: block;
+			}
+		</style>
+		<link rel="stylesheet" href="static/css/bootstrap.css" />
+
+	</head>
+
+	<body>
+		<div class="main ">
+			<div class="section ">
+				<img src="static/pic/user1.jpg" />
+				<label class="sel" type="radio">1</label>
+			</div>
+			<div class="section">
+				<img src="static/pic/user2.jpg" />
+				<label class="sel" type="radio">2</label>
+			</div>
+			<div class="section">
+				<img src="static/pic/user3.jpg" />
+				<label class="sel" type="radio">3</label>
+			</div>
+			<!---------3-->
+			<div class="section">
+				<img src="static/pic/user4.jpg" />
+				<label class="sel" type="radio">4</label>
+			</div>
+			<div class="section">
+				<img src="static/pic/user5.jpg" />
+				<label class="sel" type="radio">5</label>
+			</div>
+			<div class="section">
+				<img src="static/pic/user6.jpg" />
+				<label class="sel" type="radio">6</label>
+			</div>
+			<!---------3-->
+			<div class="section">
+				<img src="static/pic/user7.jpg" />
+				<label class="sel" type="radio">7</label>
+			</div>
+			<div class="section">
+				<img src="static/pic/user8.jpg" />
+				<label class="sel" type="radio">8</label>
+			</div>
+			<div class="section">
+				<img src="static/pic/user9.jpg" />
+				<label class="sel" type="radio">9</label>
+			</div>
+			<!---------3-->
+			<div class="center-block" style="width:200px;">
+				<form action="touxiangxuanze" method="post">
+					<select name="touxiangid">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+					</select>
+
+					<input type="submit" class="btn btn-sm btn-primary" value="提交"></input>
+
+				</form>
+			</div>
+		</div>
+
+	</body>
+
+</html>
